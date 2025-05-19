@@ -52,3 +52,15 @@
 .tr :nth-child(1){
     text-align: start;	
 }
+
+.passed {
+    color: blue;
+}
+
+.eliminated{
+    color: #8d8d8d;
+}
+
+.span{
+    color: #000000;
+}

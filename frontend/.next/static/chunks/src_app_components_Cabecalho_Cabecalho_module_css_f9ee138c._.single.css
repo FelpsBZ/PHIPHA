@@ -1,0 +1,20 @@
+/* [project]/src/app/components/Cabecalho/Cabecalho.module.css [app-client] (css) */
+.Cabecalho-module__Qw3PYa__container {
+  color: #ededed;
+  background-color: #06aa48;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.Cabecalho-module__Qw3PYa__titulo {
+  text-align: center;
+  color: #ededed;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=src_app_components_Cabecalho_Cabecalho_module_css_f9ee138c._.single.css.map*/

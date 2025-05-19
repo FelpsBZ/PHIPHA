@@ -1,16 +1,16 @@
 import React from "react";
 import styles from "./TabelaGrupos.module.css";
-import timesJson from "../../Data/times.json";
+import times from "../../Data/times";
 
 
 
 export default function TabelaGrupos() {
 
-  const times = timesJson.times;
+  
 
 
   const classificaGrupo = (grupo: string) => {
-    const timesNoGrupo = timesJson.times.filter((time) => time.grupo === grupo);
+    const timesNoGrupo = times.filter((time) => time.grupo === grupo);
     const timesOrdenados = timesNoGrupo.sort((a, b) => {
       if (b.pontos !== a.pontos) return b.pontos - a.pontos;
       return b.saldo_gols - a.saldo_gols;
@@ -47,7 +47,7 @@ export default function TabelaGrupos() {
           const jogos = time.vitorias + time.empates + time.derrotas;
           return (
             <tr key={index} className={styles.tr}>
-              <td>{index + 1} ­­ ­ ­ {time.nome}</td>
+              <td className={index == 0||index == 1 ? styles.passed: styles.eliminated}>{index + 1} ­­ ­ ­ <span className={styles.span}>{time.nome}</span></td>
               <td>{time.pontos}</td>
               <td>{jogos}</td>
               <td>{time.vitorias}</td>
