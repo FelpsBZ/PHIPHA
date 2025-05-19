@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #06aa48;
+    color: #ededed;
+    margin-bottom: 15px;
+}
+
+.titulo {
+    text-align: center;
+    color: #ededed;
+    font-size: 40px;
+    font-weight: bold;
+}   

@@ -1,0 +1,182 @@
+{
+    "times": [
+        {
+            "nome": "SC Corinthians",
+            "grupo": "A",
+            "vitorias": 0,
+            "empates": 0,
+            "derrotas": 0,
+            "pontos": 0,
+            "gols_pro": 0,
+            "gols_contra": 0,
+            "saldo_gols": 0
+          },
+          {
+            "nome": "Mirassol FC",
+            "grupo": "A",
+            "vitorias": 0,
+            "empates": 0,
+            "derrotas": 0,
+            "pontos": 0,
+            "gols_pro": 0,
+            "gols_contra": 0,
+            "saldo_gols": 0
+          },
+          {
+            "nome": "Botafogo FC",
+            "grupo": "A",
+            "vitorias": 0,
+            "empates": 0,
+            "derrotas": 0,
+            "pontos": 0,
+            "gols_pro": 0,
+            "gols_contra": 0,
+            "saldo_gols": 0
+          },
+          {
+            "nome": "Inter de Limeira",
+            "grupo": "A",
+            "vitorias": 0,
+            "empates": 0,
+            "derrotas": 0,
+            "pontos": 0,
+            "gols_pro": 0,
+            "gols_contra": 0,
+            "saldo_gols": 0
+          },
+          {
+            "nome": "Santos FC",
+            "grupo": "B",
+            "vitorias": 0,
+            "empates": 0,
+            "derrotas": 0,
+            "pontos": 0,
+            "gols_pro": 0,
+            "gols_contra": 0,
+            "saldo_gols": 0
+          },
+          {
+            "nome": "Red Bull Bragantino",
+            "grupo": "B",
+            "vitorias": 0,
+            "empates": 0,
+            "derrotas": 0,
+            "pontos": 0,
+            "gols_pro": 0,
+            "gols_contra": 0,
+            "saldo_gols": 0
+          },
+          {
+            "nome": "Guarani FC",
+            "grupo": "B",
+            "vitorias": 0,
+            "empates": 0,
+            "derrotas": 0,
+            "pontos": 0,
+            "gols_pro": 0,
+            "gols_contra": 0,
+            "saldo_gols": 0
+          },
+          {
+            "nome": "Portuguesa FC",
+            "grupo": "B",
+            "vitorias": 0,
+            "empates": 0,
+            "derrotas": 0,
+            "pontos": 0,
+            "gols_pro": 0,
+            "gols_contra": 0,
+            "saldo_gols": 0
+          },
+          {
+            "nome": "São Paulo FC",
+            "grupo": "C",
+            "vitorias": 0,
+            "empates": 0,
+            "derrotas": 0,
+            "pontos": 0,
+            "gols_pro": 0,
+            "gols_contra": 0,
+            "saldo_gols": 0
+          },
+          {
+            "nome": "Novorizontino FC",
+            "grupo": "C",
+            "vitorias": 0,
+            "empates": 0,
+            "derrotas": 0,
+            "pontos": 0,
+            "gols_pro": 0,
+            "gols_contra": 0,
+            "saldo_gols": 0
+          },
+          {
+            "nome": "Noroeste FC",
+            "grupo": "C",
+            "vitorias": 0,
+            "empates": 0,
+            "derrotas": 0,
+            "pontos": 0,
+            "gols_pro": 0,
+            "gols_contra": 0,
+            "saldo_gols": 0
+          },
+          {
+            "nome": "Água Santa",
+            "grupo": "C",
+            "vitorias": 0,
+            "empates": 0,
+            "derrotas": 0,
+            "pontos": 0,
+            "gols_pro": 0,
+            "gols_contra": 0,
+            "saldo_gols": 0
+          },
+          {
+            "nome": "São Bernardo FC",
+            "grupo": "D",
+            "vitorias": 0,
+            "empates": 0,
+            "derrotas": 0,
+            "pontos": 0,
+            "gols_pro": 0,
+            "gols_contra": 0,
+            "saldo_gols": 0
+          },
+          {
+            "nome": "SE Palmeiras",
+            "grupo": "D",
+            "vitorias": 0,
+            "empates": 0,
+            "derrotas": 0,
+            "pontos": 0,
+            "gols_pro": 0,
+            "gols_contra": 0,
+            "saldo_gols": 0
+          },
+          {
+            "nome": "Ponte Preta",
+            "grupo": "D",
+            "vitorias": 0,
+            "empates": 0,
+            "derrotas": 0,
+            "pontos": 0,
+            "gols_pro": 0,
+            "gols_contra": 0,
+            "saldo_gols": 0
+          },
+          {
+            "nome": "Velo Clube",
+            "grupo": "D",
+            "vitorias": 0,
+            "empates": 0,
+            "derrotas": 0,
+            "pontos": 0,
+            "gols_pro": 0,
+            "gols_contra": 0,
+            "saldo_gols": 0
+          }
+    ]
+}
+
+  

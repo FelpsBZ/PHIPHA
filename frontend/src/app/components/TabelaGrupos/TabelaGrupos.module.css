@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+
+}
+
+.th {
+    text-align: center;
+    color: rgb(0 0 0 / 50%);
+    width: 7%;
+    height: 30px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.titulo  {
+    color: rgb(0 0 0 / 30%);
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-align: start;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.grupo {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 600;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-align: start;
+    height: 80px;
+}
+
+.tr :nth-child(even) {
+    background-color: #ececec;
+}
+
+.tr :nth-child(n){
+    text-align: center;
+    height: 50px;
+}
+
+.tr :nth-child(1){
+    text-align: start;	
+}
