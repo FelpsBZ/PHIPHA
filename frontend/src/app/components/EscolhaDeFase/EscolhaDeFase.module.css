@@ -1,0 +1,37 @@
+.main {
+    width: 100dvw;
+    height: 10dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    background-color: #06aa48;
+    color: #ededed;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+
+    width: 100dvw;
+    height: 10dvh;
+}
+
+.A {
+    text-decoration: none;
+    color: #dadada;
+    transition: all 0.2s ease-in-out;
+}
+
+.A:hover {
+    scale: 1.1;
+    color: #ededed;
+    transition: all 0.2s ease-in-out;
+}

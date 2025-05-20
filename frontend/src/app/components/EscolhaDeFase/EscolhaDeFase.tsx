@@ -6,10 +6,10 @@ export default function EscolhaDeFase(){
         <>
         <div className={Style.main}>
             <div className={Style.links}>
-                <a href="">Fase de Grupos</a>
-                <a href="">Quartas de Final</a>
-                <a href="">Semi Final</a>
-                <a href="">Final</a>
+                <a href="" className={Style.A}>Fase de Grupos</a>
+                <a href="" className={Style.A}>Quartas de Final</a>
+                <a href="" className={Style.A}>Semi Final</a>
+                <a href="" className={Style.A}>Final</a>
             </div>
         </div>
         </>

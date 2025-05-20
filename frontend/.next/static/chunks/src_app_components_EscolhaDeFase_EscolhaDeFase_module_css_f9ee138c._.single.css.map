@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/components/EscolhaDeFase/EscolhaDeFase.module.css"],"sourcesContent":[".main {\r\n    width: 100dvw;\r\n    height: 10dvh;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    gap: 1rem;\r\n\r\n    background-color: #06aa48;\r\n    color: #ededed;\r\n    font-size: 15px;\r\n    font-weight: bold;\r\n}\r\n\r\n.links {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: space-around;\r\n    align-items: center;\r\n    gap: 1rem;\r\n\r\n    width: 100dvw;\r\n    height: 10dvh;\r\n}\r\n\r\n.A {\r\n    text-decoration: none;\r\n    color: #dadada;\r\n    transition: all 0.2s ease-in-out;\r\n}\r\n\r\n.A:hover {\r\n    scale: 1.1;\r\n    color: #ededed;\r\n    transition: all 0.2s ease-in-out;\r\n}"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;AAeA;;;;;;;;;;AAWA;;;;;;AAMA"}}]
+}

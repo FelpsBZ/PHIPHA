@@ -1,0 +1,126 @@
+/* [project]/src/app/components/TabelaGrupos/TabelaGrupos.module.css [app-client] (css) */
+.TabelaGrupos-module__8NuQea__container {
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  display: flex;
+}
+
+.TabelaGrupos-module__8NuQea__table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0;
+}
+
+.TabelaGrupos-module__8NuQea__th {
+  text-align: center;
+  color: #00000080;
+  width: 7%;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.TabelaGrupos-module__8NuQea__titulo {
+  color: #0000004d;
+  text-align: start;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.TabelaGrupos-module__8NuQea__grupo {
+  color: #000;
+  text-align: start;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  height: 80px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.TabelaGrupos-module__8NuQea__tr :nth-child(2n) {
+  background-color: #ececec;
+}
+
+.TabelaGrupos-module__8NuQea__tr :nth-child(n) {
+  text-align: center;
+  height: 50px;
+}
+
+.TabelaGrupos-module__8NuQea__tr :first-child {
+  text-align: start;
+}
+
+.TabelaGrupos-module__8NuQea__passed {
+  color: #00f;
+}
+
+.TabelaGrupos-module__8NuQea__eliminated {
+  color: #8d8d8d;
+}
+
+.TabelaGrupos-module__8NuQea__span {
+  color: #000;
+}
+
+
+/* [project]/src/app/components/Cabecalho/Cabecalho.module.css [app-client] (css) */
+.Cabecalho-module__Qw3PYa__container {
+  color: #ededed;
+  background-color: #06aa48;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+
+.Cabecalho-module__Qw3PYa__titulo {
+  text-align: center;
+  color: #ededed;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+
+/* [project]/src/app/components/EscolhaDeFase/EscolhaDeFase.module.css [app-client] (css) */
+.EscolhaDeFase-module__JDayUa__main {
+  color: #ededed;
+  background-color: #06aa48;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100dvw;
+  height: 10dvh;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+}
+
+.EscolhaDeFase-module__JDayUa__links {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  width: 100dvw;
+  height: 10dvh;
+  display: flex;
+}
+
+.EscolhaDeFase-module__JDayUa__A {
+  color: #dadada;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+.EscolhaDeFase-module__JDayUa__A:hover {
+  color: #ededed;
+  transition: all .2s ease-in-out;
+  scale: 1.1;
+}
+
+
+/*# sourceMappingURL=src_app_components_140a16d7._.css.map*/
