@@ -1,7 +1,7 @@
 export declare class CreateTeamDto {
-    nome: string;
-    grupo: string;
-    def: number;
-    ata: number;
-    pontos: number;
+    name_team: string;
+    group_team: string;
+    defense: number;
+    attack: number;
+    points: number;
 }

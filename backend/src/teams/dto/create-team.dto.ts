@@ -3,17 +3,17 @@ import { IsNumber, IsString } from "class-validator";
 export class CreateTeamDto {
 
     @IsString()
-    nome: string;
+    name_team: string;
 
     @IsString()
-    grupo: string;
+    group_team: string;
 
     @IsNumber()
-    def: number;
+    defense: number;
 
     @IsNumber()
-    ata: number;
+    attack: number;
 
     @IsNumber()
-    pontos: number;
+    points: number;
 }

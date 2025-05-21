@@ -17,21 +17,21 @@ exports.CreateTeamDto = CreateTeamDto;
 __decorate([
     (0, class_validator_1.IsString)(),
     __metadata("design:type", String)
-], CreateTeamDto.prototype, "nome", void 0);
+], CreateTeamDto.prototype, "name_team", void 0);
 __decorate([
     (0, class_validator_1.IsString)(),
     __metadata("design:type", String)
-], CreateTeamDto.prototype, "grupo", void 0);
+], CreateTeamDto.prototype, "group_team", void 0);
 __decorate([
     (0, class_validator_1.IsNumber)(),
     __metadata("design:type", Number)
-], CreateTeamDto.prototype, "def", void 0);
+], CreateTeamDto.prototype, "defense", void 0);
 __decorate([
     (0, class_validator_1.IsNumber)(),
     __metadata("design:type", Number)
-], CreateTeamDto.prototype, "ata", void 0);
+], CreateTeamDto.prototype, "attack", void 0);
 __decorate([
     (0, class_validator_1.IsNumber)(),
     __metadata("design:type", Number)
-], CreateTeamDto.prototype, "pontos", void 0);
+], CreateTeamDto.prototype, "points", void 0);
 //# sourceMappingURL=create-team.dto.js.map

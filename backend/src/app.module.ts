@@ -4,18 +4,19 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { TeamsModule } from './teams/teams.module';
 import { GamesModule } from './games/games.module';
+require('dotenv').config();
 
 @Module({
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',              // ou IP do servidor MySQL
+      host: process.env.HOST,              // ou IP do servidor MySQL
       port: 3306,
-      username: 'seu_usuario',
-      password: 'sua_senha',
-      database: 'nome_do_banco',
+      username: process.env.USER,
+      password: process.env.PASSWORD,
+      database: process.env.DATABASE,
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
-      synchronize: true,             // use só em desenvolvimento!
+      synchronize: false,             // use só em desenvolvimento!
     }),
     TeamsModule,
     GamesModule,

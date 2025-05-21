@@ -9,15 +9,15 @@ POST http://localhost:3000/teams
 Content-Type: application/json
 
 {
-   "nome": "Corintians",
-   "grupo": "A",
-   "def": 61,
-   "ata": 69,
-   "pontos": 0
+   "name_team": "Corintians",
+   "group_team": "A",
+   "defense": 61,
+   "attack": 69,
+   "points": 3
 }
 
 ### Update team
 PATCH  http://localhost:3000/teams/1
 
 ### Delete team
-DELETE http://localhost:3000/teams/1
+DELETE http://localhost:3000/teams/2

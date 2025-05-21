@@ -13,6 +13,7 @@ const app_controller_1 = require("./app.controller");
 const app_service_1 = require("./app.service");
 const teams_module_1 = require("./teams/teams.module");
 const games_module_1 = require("./games/games.module");
+require('dotenv').config();
 let AppModule = class AppModule {
 };
 exports.AppModule = AppModule;
@@ -21,13 +22,13 @@ exports.AppModule = AppModule = __decorate([
         imports: [
             typeorm_1.TypeOrmModule.forRoot({
                 type: 'mysql',
-                host: 'localhost',
+                host: process.env.HOST,
                 port: 3306,
-                username: 'seu_usuario',
-                password: 'sua_senha',
-                database: 'nome_do_banco',
+                username: process.env.USER,
+                password: process.env.PASSWORD,
+                database: process.env.DATABASE,
                 entities: [__dirname + '/**/*.entity{.ts,.js}'],
-                synchronize: true,
+                synchronize: false,
             }),
             teams_module_1.TeamsModule,
             games_module_1.GamesModule,
