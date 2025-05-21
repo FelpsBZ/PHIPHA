@@ -1,19 +1,18 @@
 import React from "react";
 import styles from "./TabelaGrupos.module.css";
-import times from "../../Data/times";
+import teams from "../../Data/teams";
 
 
 
 export default function TabelaGrupos() {
 
-  
 
 
-  const classificaGrupo = (grupo: string) => {
-    const timesNoGrupo = times.filter((time) => time.grupo === grupo);
+  const classificaGrupo = (group: string) => {
+    const timesNoGrupo = teams.filter((team) => team.group === group);
     const timesOrdenados = timesNoGrupo.sort((a, b) => {
-      if (b.pontos !== a.pontos) return b.pontos - a.pontos;
-      return b.saldo_gols - a.saldo_gols;
+      if (b.points !== a.points) return b.points - a.points;
+      return b.goal_difference - a.goal_difference;
     });
     return timesOrdenados;
   };
@@ -44,18 +43,18 @@ export default function TabelaGrupos() {
       </thead>
       <tbody className={styles.tbody}>
         {classificados.map((time, index) => {
-          const jogos = time.vitorias + time.empates + time.derrotas;
+          const jogos = time.wins + time.draws + time.losses;
           return (
             <tr key={index} className={styles.tr}>
-              <td className={index == 0||index == 1 ? styles.passed: styles.eliminated}>{index + 1} ­­ ­ ­ <span className={styles.span}>{time.nome}</span></td>
-              <td>{time.pontos}</td>
+              <td className={index == 0||index == 1 ? styles.passed: styles.eliminated}>{index + 1} ­­ ­ ­ <span className={styles.span}>{time.name}</span></td>
+              <td>{time.points}</td>
               <td>{jogos}</td>
-              <td>{time.vitorias}</td>
-              <td>{time.empates}</td>
-              <td>{time.derrotas}</td>
-              <td>{time.gols_pro}</td>
-              <td>{time.gols_contra}</td>
-              <td>{time.saldo_gols}</td>
+              <td>{time.wins}</td>
+              <td>{time.draws}</td>
+              <td>{time.losses}</td>
+              <td>{time.goals_for}</td>
+              <td>{time.goals_against}</td>
+              <td>{time.goal_difference}</td>
             </tr>
           );
         })}
